@@ -12,6 +12,6 @@ describe('Fixnum#numbers') do
     expect((88).numbers()).to(eq("eighty eight"))
   end
   it("returns correct String for numbers 100-999") do
-    expect((755).numbers()).to(eq("seven hundred fiftyfive"))
+    expect((755).numbers()).to(eq("seven hundred fifty five"))
   end
 end
